@@ -67,7 +67,7 @@ OIBSIP/
     └── screenshots/
 ```
 
-*Note: This is the planned structure. Add files as you create them, and use the exact naming convention required by the internship.*
+
 
 ## Lab Environment
 
