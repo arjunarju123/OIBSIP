@@ -23,6 +23,8 @@ Nmap comes pre-installed on Kali Linux. Verified with:
 nmap --version
 ```
 
+![](screenshots/screenshot_3.png)
+
 ## Scans Performed
 
 **1. Basic scan**
