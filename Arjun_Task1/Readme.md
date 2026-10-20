@@ -39,15 +39,13 @@ nmap 192.168.1.107
 nmap -sV 192.168.1.107
 ```
 
-
-
-
+![](screenshots/)
 
 **3. OS detection**
 ```bash
 sudo nmap -O 192.168.1.107
 ```
-
+![](screenshots/)
 
 
 **4. Combined scan, output saved**
@@ -55,7 +53,7 @@ sudo nmap -O 192.168.1.107
 nmap -sV -O <METASPLOITABLE2_IP> -oN nmap_scan_results.txt
 ```
 
-
+![](screenshots/)
 
 ## Findings
 
