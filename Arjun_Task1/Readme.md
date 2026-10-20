@@ -23,7 +23,7 @@ Nmap comes pre-installed on Kali Linux. Verified with:
 nmap --version
 ```
 
-![](screenshots/screenshot_3.png)
+![](screenshots/Screenshot_3.png)
 
 ## Scans Performed
 
@@ -32,7 +32,7 @@ nmap --version
 nmap 192.168.1.107
 ```
 
-
+![](screenshots/Sreenshot_4.png)
 
 **2. Service version detection**
 ```bash
