@@ -32,12 +32,14 @@ nmap --version
 nmap 192.168.1.107
 ```
 
-![](screenshots/Sreenshot_4.png)
+![](screenshots/Screenshot_4.png)
 
 **2. Service version detection**
 ```bash
 nmap -sV 192.168.1.107
 ```
+
+
 
 
 
