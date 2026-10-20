@@ -27,23 +27,31 @@ nmap --version
 
 **1. Basic scan**
 ```bash
-nmap <METASPLOITABLE2_IP>
+nmap 192.168.1.107
 ```
+
+
 
 **2. Service version detection**
 ```bash
-nmap -sV <METASPLOITABLE2_IP>
+nmap -sV 192.168.1.107
 ```
+
+
 
 **3. OS detection**
 ```bash
-sudo nmap -O <METASPLOITABLE2_IP>
+sudo nmap -O 192.168.1.107
 ```
+
+
 
 **4. Combined scan, output saved**
 ```bash
 nmap -sV -O <METASPLOITABLE2_IP> -oN nmap_scan_results.txt
 ```
+
+
 
 ## Findings
 
