@@ -23,8 +23,8 @@ This repository contains my cybersecurity projects completed as part of the Oasi
 |---|---|---|
 | Task 1 | Basic Network Scanning using Nmap | Completed |
 | Task 2 | Firewall Configuration using UFW | Completed |
-| Task 7 | Vulnerability Scanning using Nikto | In Progress |
-| Task 8 | Network Traffic Capture using Wireshark | Not Started |
+| Task 7 | Vulnerability Scanning using Nikto | Completed |
+| Task 8 | Network Traffic Capture using Wireshark | started |
 | Task 10 | Full Network Security Assessment Report | Not Started |
 
 ## Tools and Technologies
