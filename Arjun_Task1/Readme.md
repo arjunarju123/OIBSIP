@@ -71,5 +71,4 @@ nmap -sV -O -oN nmap_scan_results.txt 192.168.0.230
 - `nmap_scan_results.txt` — raw scan output
 - `screenshots/` — terminal output screenshots for each scan
 
-## Demo Video
-*(Link to your screen recording here)*
+
