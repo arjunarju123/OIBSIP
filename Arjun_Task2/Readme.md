@@ -58,11 +58,13 @@ Verify installation:
 ```bash
 sudo ufw version
 ```
+![](screenshots/ufw_ver.png)
 
 Enable UFW
 ```bash
 sudo ufw enable
 ```
+![](screenshots/ufw_enable.png)
 
 4. Manual Configuration
 
@@ -81,6 +83,7 @@ Allow HTTP
 ```bash
 sudo ufw allow 80/tcp
 ```
+![](screenshots/ufw_allow.png)
 
 Allow HTTPS
 ```bash
@@ -94,13 +97,9 @@ The following rules demonstrate source-specific access for an example subnet:
 ```bash
 sudo ufw deny from 203.0.113.0/24
 ```
+![](screenshots/ufw_ex2.png)
 
 Note: 203.0.113.0/24 is reserved for documentation and examples. Replace it with an appropriate authorised lab subnet when testing real source-based access restrictions.
-
-Enable UFW
-```bash
-sudo ufw enable
-```
 
 
 ## 7. Verification Commands
@@ -110,7 +109,7 @@ Check firewall status:
 ```bash
 sudo ufw status verbose
 ```
-![](screenshots/ufw_ver.png)
+![](screenshots/ufw_status.png)
 
 Display numbered firewall rules:
 
