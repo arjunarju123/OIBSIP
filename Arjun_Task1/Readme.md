@@ -32,28 +32,28 @@ nmap --version
 nmap 192.168.1.107
 ```
 
-![](screenshots/Screenshot_4.png)
+![](screenshots/nmap_scan.png)
 
 **2. Service version detection**
 ```bash
 nmap -sV 192.168.1.107
 ```
 
-![](screenshots/)
+![](screenshots/nmap_sv.png)
 
 **3. OS detection**
 ```bash
 sudo nmap -O 192.168.1.107
 ```
-![](screenshots/)
+![](screenshots/nmap_os.png)
 
 
 **4. Combined scan, output saved**
 ```bash
-nmap -sV -O <METASPLOITABLE2_IP> -oN nmap_scan_results.txt
+nmap -sV -O -oN nmap_scan_results.txt 192.168.0.230
 ```
 
-![](screenshots/)
+![](screenshots/nmap_file.png)
 
 ## Findings
 
