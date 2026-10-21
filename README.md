@@ -53,7 +53,7 @@ OIBSIP/
 │   └── screenshots/
 ├── Arjun_Task7/
 │   ├── README.md
-│   ├── nikto_results.txt
+│   ├── nikto_scan_results.txt
 │   └── screenshots/
 ├── Arjun_Task8/
 │   ├── README.md
