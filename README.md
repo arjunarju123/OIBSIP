@@ -49,7 +49,7 @@ OIBSIP/
 │   └── screenshots/
 ├── Arjun_Task2/
 │   ├── README.md
-│   ├── firewall_rules.txt
+│   ├── ufw_configuration.sh
 │   └── screenshots/
 ├── Arjun_Task7/
 │   ├── README.md
