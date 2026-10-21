@@ -84,5 +84,3 @@ nikto -h http://10.50.236.64 -o nikto_scan_results.txt
 - `nikto_scan_results.txt` — raw scan output
 - `screenshots/` — terminal output and results screenshots
 
-## Demo Video
-*(Link to your screen recording here)*
