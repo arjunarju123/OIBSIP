@@ -5,7 +5,7 @@
 This repository contains my cybersecurity projects completed as part of the Oasis Infobyte Cybersecurity Internship.
 
 **Internship Role:** Security Analyst  
-**Start Date:** 5 October 2026  
+**Start Date:** 15 October 2026  
 **Submission Deadline:** 15 November 2026
 
 ## Objectives
