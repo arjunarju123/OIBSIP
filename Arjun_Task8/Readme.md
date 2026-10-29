@@ -29,12 +29,12 @@ Without this, Wireshark either needs to be run with `sudo` or will be unable to 
 ## Display Filter: HTTP Traffic
 Filter: `http`
 
-*Screenshot: `screenshots/http_filter.png`*
+![](screenshots/http_filter.png)
 
 ## Display Filter: DNS Traffic
 Filter: `dns`
 
-*Screenshot: `screenshots/dns_filter.png`*
+![](screenshots/dns_filter.png)
 
 ## Display Filter: TCP Traffic — 3-Way Handshake Analysis
 Filter: `tcp.port == 47460 && ip.addr == 10.50.236.64`
@@ -45,7 +45,7 @@ Filter: `tcp.port == 47460 && ip.addr == 10.50.236.64`
 | 2 | 135 | SYN, ACK | Server acknowledges and sends its own SYN |
 | 3 | 136 | ACK | Client acknowledges — connection established |
 
-*Screenshot: `screenshots/tcp_handshake.png`*
+![](screenshots/tcp_handshake.png)
 
 ## Unencrypted Data Identified
 Frame **494** contains an HTTP **POST** request to `/dvwa/login.php` on `10.50.236.64`. Because DVWA runs over plain HTTP (no TLS), the login form data is fully visible in the packet payload:
@@ -54,7 +54,7 @@ username=abcd
 password=1234
 Login=Login
 
-*Screenshot: `screenshots/http_login_credentials.png`*
+![](screenshots/http_login_credentials.png)
 
 This confirms that anyone intercepting traffic on the same network segment — e.g., a shared Wi-Fi network or a compromised switch — could read these credentials directly, with no need to break any encryption.
 
