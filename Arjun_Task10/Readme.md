@@ -41,7 +41,7 @@ The target exposes an extremely large attack surface — **25 open services** we
 **Host:** `192.168.0.230` — up, latency 0.0014s
 **Scan duration:** 66.82 seconds
 
-*Screenshot: `screenshots/nmap_scan.jpg`*
+*Screenshot: ![](screenshots/nmap_scan.png)
 
 **Open ports and services (25 found):**
 
@@ -80,15 +80,15 @@ The target exposes an extremely large attack surface — **25 open services** we
 **Session:** Host-only Adapter, `10.50.236.64` (Kali at `10.50.236.30`)
 **Capture:** 1,062 packets total
 
-*Screenshot: `screenshots/wireshark_overview.jpg`*
+*Screenshot: ![](screenshots/wireshark_overview.png)
 
 **HTTP filter (`http`):** 18 HTTP frames identified, including the full DVWA browsing session (`/`, `/dvwa`, `/dvwa/login.php`, CSS/image assets, and the login POST).
 
-*Screenshot: `screenshots/http_filter.jpg`*
+*Screenshot: ![](screenshots/http_filter.png)
 
 **DNS filter (`dns`):** 112 DNS frames captured during the session.
 
-*Screenshot: `screenshots/dns_filter.jpg`*
+*Screenshot: ![](screenshots/dns_filter.png)
 
 **TCP 3-way handshake** (filter: `tcp.port == 47460 && ip.addr == 10.50.236.64`):
 
@@ -98,7 +98,7 @@ The target exposes an extremely large attack surface — **25 open services** we
 | 2 | 135 | SYN, ACK | Server acknowledges and sends its own SYN |
 | 3 | 136 | ACK | Client acknowledges — connection established |
 
-*Screenshot: `screenshots/tcp_handshake.jpg`*
+*Screenshot: ![](screenshots/tcp_handshake.png)
 
 **Unencrypted sensitive data observed:**
 Frame **494** is an HTTP POST to `/dvwa/login.php` on `10.50.236.64`. The request body is transmitted in plain text:
@@ -108,7 +108,7 @@ Login=Login
 
 Any party able to observe traffic on this network segment could read these credentials directly — no decryption required.
 
-*Screenshot: `screenshots/http_login_credentials.jpg`*
+*Screenshot: ![](screenshots/http_login_credentials.png)
 
 ---
 
@@ -121,7 +121,7 @@ Any party able to observe traffic on this network segment could read these crede
 nikto -h http://10.50.236.64 -o nikto_scan_results_1.txt
 ```
 
-*Screenshot: `screenshots/nikto_scan.jpg`*
+*Screenshot: ![](screenshots/nikto_scan.jpng)
 
 **Key findings (full detail in `Task7_NiktoScanning/README.md`):**
 - `#wp-config.php#` backup file found — exposes database credentials (Critical)
